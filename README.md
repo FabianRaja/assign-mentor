@@ -2,29 +2,29 @@
 
 Packages Installed:
 
-*Express
+* Express
 
-*Nodemon
+* Nodemon
 
-*Dotenv
+* Dotenv
 
-*Mongodb
+* Mongodb
 
 Features:
 
-*Create Mentor
+* Create Mentor
 
-*Create Student
+* Create Student
 
-*Assign multiple Students to a Mentor
+* Assign multiple Students to a Mentor
 
-*Assign a particular student to a mentor
+* Assign a particular student to a mentor
 
-*Change a mentor for a siparticularngle student
+* Change a mentor for a siparticularngle student
 
-*View all the students assigned for a particular mentor
+* View all the students assigned for a particular mentor
 
-*View the previous mentor history for a particular student
+* View the previous mentor history for a particular student
 
 Details for giving Data's:
 
@@ -42,21 +42,25 @@ Viewing previous mentor history for a particular student - student_name
 
 API endpoints:
 
-/ - to view all mentor data's
+* / - to view all mentor data's
 
-/mentor - to create a mentor
+* /mentor - to create a mentor
 
-/student - to create a student
+* /student - to create a student
 
-/assignMentor - to assign multiple students for a particular mentor
+* /assignMentor - to assign multiple students for a particular mentor
 
-/changeMentor - to assign mentor for a particular student or to change mentor for a particular student
+* /changeMentor - to assign mentor for a particular student or to change mentor for a particular student
 
-/mentorStudents - to view all the students assigned for a particular mentor
+* /mentorStudents - to view all the students assigned for a particular mentor
 
-/history - to view the previous mentor history for a particular student
+* /history - to view the previous mentor history for a particular student
 
 
 Conditions:
 
-* Users
+* Users cannot create another mentor with same name
+
+* Users cannot create another student with same name
+
+* All other conditions are user friendly and easy to understand...
